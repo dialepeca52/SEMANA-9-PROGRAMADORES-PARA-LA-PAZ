@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 app.get("/saludo", (req, res) => {
   res.json({
     mensaje: "Hola. La aplicación comunitaria está respondiendo correctamente.",
-    clase: "Cuarenta y uno" + (41),
+    clase: "Cuarenta y uno" + 41,
     semana: 9
   });
 });
