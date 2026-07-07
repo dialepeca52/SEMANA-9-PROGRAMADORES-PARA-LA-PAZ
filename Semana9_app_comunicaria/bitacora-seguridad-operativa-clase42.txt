@@ -1,0 +1,40 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre:Diego Peña
+Fecha:06/07/2026
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta:Aplicar prácticas y medidas para proteger un sistema, sus datos y sus recursos durante su desarrollo, implementación y uso.
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta:Consiste en otorgar a cada usuario, proceso o aplicación únicamente los permisos necesarios para realizar su función.
+
+3. ¿Qué significa exposición mínima?
+Respuesta:Significa mostrar o hacer accesible solo la información y los servicios estrictamente necesarios.
+
+4. ¿Para qué sirve .gitignore?
+Respuesta:Sirve para indicar a Git qué archivos y carpetas no deben incluirse en el repositorio.
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta:Porque suele contener credenciales, contraseñas, claves API y otra información confidencial.
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta:Credenciales, contraseñas, claves API, tokens, variables de entorno y datos personales.
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta:.env, archivos con credenciales, claves privadas, certificados y otros archivos con información sensible.
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta:La rta saludo
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta: La ruta estado.
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta:Se recorto la información que muestra la ruta.
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta:{"entorno":"development","telegramConfigurado":true,"nota":"Esta ruta es de práctica. No muestra tokens ni credenciales."}
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta:Que las credenciales deben mantenerse fuera del código fuente, almacenarse de forma segura y nunca compartirse ni subirse a repositorios públicos.
