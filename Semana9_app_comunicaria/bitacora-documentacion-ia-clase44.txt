@@ -1,0 +1,41 @@
+BITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
+
+Nombre:Diego Peña
+Fecha:11/07/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un procedimiento técnico?
+Respuesta:Es un conjunto de pasos ordenados y documentados para realizar una tarea técnica de forma correcta, repetible y segura
+
+2. ¿Por qué documentar evita depender de una sola persona?
+Respuesta:Porque cualquier integrante puede seguir las instrucciones y realizar el trabajo sin depender del conocimiento de una sola persona.
+
+3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
+Respuesta:Codespaces es un entorno de desarrollo en la nube; el hosting compartido aloja varios sitios en un mismo servidor; un VPS ofrece un servidor virtual con recursos dedicados; y la nube proporciona recursos escalables bajo demanda.
+
+4. ¿Qué es cPanel?
+Respuesta:Es un panel de control que permite administrar un servicio de hosting, incluyendo archivos, bases de datos, correos electrónicos y dominios mediante una interfaz gráfica.
+
+5. ¿Qué archivos no deben subirse al repositorio?
+Respuesta:Archivos con contraseñas, claves API, credenciales, archivos de configuración sensibles, datos personales, archivos temporales y carpetas generadas automáticamente como node_modules o archivos de carga (uploads).
+
+6. ¿Qué función cumple .gitignore?
+Respuesta:Indica a Git qué archivos y carpetas no deben incluirse ni subirse al repositorio.
+
+7. ¿Qué función cumple .gitkeep?
+Respuesta:Permite mantener una carpeta vacía dentro del repositorio para conservar su estructura.
+
+8. ¿Qué carpeta se preparó para archivos subidos?
+Respuesta:La carpeta uploads.
+
+9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
+Respuesta:Porque pueden contener archivos temporales, información privada o archivos generados por los usuarios que no forman parte del código del proyecto.
+
+10. ¿Qué consulta segura hice a IA?
+Respuesta:Pedí una explicación sobre GitHub Codespaces, Git, .gitignore y buenas prácticas sin compartir información confidencial del proyecto.
+
+11. ¿Qué información evité compartir con IA?
+Respuesta:Contraseñas, tokens, claves API, credenciales, datos personales y otra información sensible del proyecto.
+
+12. ¿Qué parte del procedimiento verifiqué manualmente?
+Respuesta:Verifiqué que la carpeta uploads existiera, que .gitignore estuviera configurado correctamente y que los archivos sensibles no fueran incluidos en el repositorio.
